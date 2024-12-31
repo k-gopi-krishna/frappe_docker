@@ -18,3 +18,4 @@ jobs:
         run: |
           echo "hello"
           ls
+          docker-compose -f pwd.yml up -d
